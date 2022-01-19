@@ -20,7 +20,7 @@
 %%capture<br>
 %load_ext sql<br>
 %sql lite:///factbook.db<br>
-<br><p>If you want to work on this project locally, you can download the SQLite factbook.db database.</p>
+<br><p>If you want to work on this project locally, you can download the SQLite factbook.db database. I have included the Jupyter Notebook file (Country Profiles.ipynb) for review.</p>
 
 <h2>Summary Statistics Analyzed In This Project</h2>
 <ul>

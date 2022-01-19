@@ -16,5 +16,23 @@
 <li>death_rate - the number of deaths per year per 1,000 people. </li></ul>
 
 <h2>Getting Started</h2>
-<p> In this project, SQLite is used as the database management system (DBMS). The code below is used to connect Jupyter Notebook to the CIA factbook.db database:</p>
+<p> In this project, SQLite is used as the database management system (DBMS). The code below is used to connect Jupyter Notebook to the CIA factbook.db database file:</p>
+%%capture<br>
+%load_ext sql<br>
+%sql lite:///factbook.db<br>
+<br><p>If you want to work on this project locally, you can download the SQLite factbook.db database.</p>
+
+<h2>Summary Statistics Analyzed In This Project</h2>
+<ul>
+  <li>Country Population & Growth</li>
+  <li>Average Population & Area</li>
+  <li>Density</li>
+  <li>Population Growth Next Year</li>
+  <li>Water to Land Ratio</li>
+  <li>Birth & Death Rates</li>
+</ul>
+
+<h2>Learning Summary</h2>
+<p>This project has allowed me to gain a better understanding of working with Jupyter Notebook as well as writing basic SQL queries to return data from tables. Also, when finding countries with the highest populations, it is best to work with average values. </p>
+
 
